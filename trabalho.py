@@ -85,11 +85,11 @@ data_petroleo_tratado = data_petroleo_tratado.dropna(how='any')
 
 #Verificação para cada uma das linhas se há valores nulos
 
-print(data_GOL.isnull().any())
-print(data_bvsp.isnull().any())
-print(data_ouro_tratado.isnull().any())
-print(data_BRL.isnull().any())
-print(data_petroleo_tratado.isnull().any())
+# print(data_GOL.isnull().any())
+# print(data_bvsp.isnull().any())
+# print(data_ouro_tratado.isnull().any())
+# print(data_BRL.isnull().any())
+# print(data_petroleo_tratado.isnull().any())
 
 #--- X e y --- 
 
